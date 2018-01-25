@@ -40,9 +40,9 @@ nav:
     -
       name: Github
       url: https://github.com/tusooa
-    -
-      name: RSS
-      url: /atom.xml
+#    -
+#      name: RSS
+#      url: /atom.xml
 
 # duoshuo shortname
 # refer to http://duoshuo.com
