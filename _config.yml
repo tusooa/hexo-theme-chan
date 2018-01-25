@@ -8,7 +8,7 @@ favicon: /favicon.png
 monochrome: true
 
 # view setting
-avatar: https://cn.gravatar.com/avatar/35fef74d731255cd569c2c2b0b9e87e4?s=200
+avatar: https://secure.gravatar.com/avatar/7a3e6041334f3007176efc960fb6ba45
 avatarLink: /about
 maxContentWidth: 1000px # set the main content column's max-width property. keep it blank to unlimited the width
 copyright: # the copyright text in the footer, could be richtext
@@ -22,7 +22,8 @@ copyright: # the copyright text in the footer, could be richtext
 # There are also some special link items representing in string: 'categories', 'tags' and 'archives'
 nav:
   -
-    - categories # display a collapsible category list
+# No, I will never use category.
+#    - categories # display a collapsible category list
     - tags       # display a collapsible tag list
     - archives   # display a collapsible archive list
   -
@@ -38,7 +39,7 @@ nav:
       url: https://github.com/denjones/hexo-theme-chan
     -
       name: Github
-      url: https://github.com/denjones
+      url: https://github.com/tusooa
     -
       name: RSS
       url: /atom.xml
@@ -74,7 +75,7 @@ baidu_statistics:
 # - none
 # This setting could be overwritten in the front matter of a post.
 # More details in https://creativecommons.org
-cc: by-sa
+cc: by-nc-sa
 
 # FancyBox / PhotoSwipe
 # Although it is called fancybox, we use PhotoSwipe instead.
